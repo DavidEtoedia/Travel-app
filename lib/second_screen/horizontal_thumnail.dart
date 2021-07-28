@@ -12,7 +12,7 @@ class _HorizontalThumbnailState extends State<HorizontalThumbnail> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 25),
+      margin: EdgeInsets.only(left: 26),
       child: Row(
         children: [
           //
