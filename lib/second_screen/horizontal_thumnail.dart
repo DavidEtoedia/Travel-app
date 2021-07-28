@@ -12,7 +12,7 @@ class _HorizontalThumbnailState extends State<HorizontalThumbnail> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(left: 26),
+      margin: EdgeInsets.only(left: 25),
       child: Row(
         children: [
           //
@@ -20,7 +20,7 @@ class _HorizontalThumbnailState extends State<HorizontalThumbnail> {
           //
           ShowUpAnimation(
             delayStart: Duration(milliseconds: 150),
-            animationDuration: Duration(milliseconds: 1600),
+            animationDuration: Duration(milliseconds: 1610),
             curve: Curves.fastLinearToSlowEaseIn,
             direction: Direction.horizontal,
             offset: 0.5,
@@ -40,7 +40,7 @@ class _HorizontalThumbnailState extends State<HorizontalThumbnail> {
             animationDuration: Duration(milliseconds: 1600),
             curve: Curves.fastLinearToSlowEaseIn,
             direction: Direction.horizontal,
-            offset: 0.5,
+            offset: 0.6,
             child: Container(
               margin: EdgeInsets.only(left: 8, right: 12),
               child: Image(
