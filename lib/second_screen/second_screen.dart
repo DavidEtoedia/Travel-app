@@ -16,24 +16,35 @@ class DisplayScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-          backgroundColor: Colors.white,
-          leading: InkWell(
-            onTap: () => Navigator.pop(context),
+        backgroundColor: Colors.white,
+        leading: InkWell(
+          onTap: () => Navigator.pop(context),
+          child: Icon(
+            Icons.arrow_back_ios,
+            color: Colors.black,
+          ),
+        ),
+        actions: [
+          Container(
+            margin: EdgeInsets.only(right: 20),
             child: Icon(
-              Icons.arrow_back_ios,
+              Icons.share_outlined,
               color: Colors.black,
+              size: 29,
             ),
           ),
-          centerTitle: true,
-          elevation: 0,
-          title: Text(
-            'Resort Info',
-            style: TextStyle(
-                fontFamily: 'NewYorkLarge',
-                fontSize: 20,
-                color: Colors.black,
-                fontWeight: FontWeight.w700),
-          )),
+        ],
+        centerTitle: true,
+        elevation: 0,
+        title: Text(
+          'Resort Info',
+          style: TextStyle(
+              fontFamily: 'NewYorkLarge',
+              fontSize: 20,
+              color: Colors.black,
+              fontWeight: FontWeight.w700),
+        ),
+      ),
       body: SafeArea(
         child: Stack(
           children: [
