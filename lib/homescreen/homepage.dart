@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/homescreen/bottom_nav.dart';
 import 'package:travel_app/homescreen/customappbar.dart';
 import 'package:travel_app/homescreen/displaytext.dart';
 import 'package:travel_app/homescreen/horizontal_list_view.dart';
@@ -26,6 +27,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavbar(),
     );
   }
 }
