@@ -14,7 +14,7 @@ class HorizontalListView extends StatelessWidget {
           height: 30,
         ),
         Container(
-          margin: EdgeInsets.only(left: 23, right: 5),
+          margin: EdgeInsets.only(left: 19, right: 5),
           width: MediaQuery.of(context).size.width,
           height: 40,
           // color: Colors.black,
@@ -29,7 +29,7 @@ class HorizontalListView extends StatelessWidget {
                     color: Colors.black),
               ),
               SizedBox(
-                width: 80,
+                width: 84,
               ),
               Container(
                 width: 95,
@@ -62,7 +62,7 @@ class HorizontalListView extends StatelessWidget {
           child: Row(
             children: [
               SizedBox(
-                width: 15,
+                width: 17,
               ),
               travelCard(context, 'assets/images/basebg.png', 'Merindas Villa',
                   'Flarinko Singapore'),

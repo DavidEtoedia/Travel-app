@@ -106,21 +106,24 @@ Widget bottomView() {
               // SizedBox(
               //   width: 150,
               // ),
-              Container(
-                width: 140,
-                height: 50,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Color(0xffF97F67),
+              InkWell(
+                onTap: () {},
+                child: Container(
+                  width: 140,
+                  height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Color(0xffF97F67),
+                  ),
+                  child: Center(
+                      child: Text(
+                    'Book Now',
+                    style: GoogleFonts.nunito(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.white),
+                  )),
                 ),
-                child: Center(
-                    child: Text(
-                  'Book Now',
-                  style: GoogleFonts.nunito(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.white),
-                )),
               )
             ],
           ),

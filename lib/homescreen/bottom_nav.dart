@@ -16,7 +16,7 @@ class BottomNavbar extends StatelessWidget {
         items: [
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.home_outlined,
+                Icons.home,
                 // color: Colors.black,
               ),
               label: 'Home'),
