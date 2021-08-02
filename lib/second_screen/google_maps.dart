@@ -36,7 +36,7 @@ class _GoogleViewState extends State<GoogleView> {
               mapType: MapType.normal,
               zoomControlsEnabled: false,
               onMapCreated: (controller) => _googleMapController = controller,
-              markers: {miramaSands, marinaBaySands, swissotelSands},
+              markers: {merindasVilla, jaysMansion, swissotelSands},
             ),
           ),
         ),
@@ -67,14 +67,14 @@ class _GoogleViewState extends State<GoogleView> {
   }
 }
 
-Marker marinaBaySands = Marker(
-    markerId: MarkerId('marinaBay'),
+Marker merindasVilla = Marker(
+    markerId: MarkerId('Merindas Villa'),
     position: LatLng(1.282302, 103.858528),
     infoWindow: InfoWindow(title: 'Marina Bay Hotel'),
     icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue));
 
-Marker miramaSands = Marker(
-    markerId: MarkerId('marinaBay'),
+Marker jaysMansion = Marker(
+    markerId: MarkerId('Jay\'s Mansion'),
     position: LatLng(1.288710, 103.837372),
     infoWindow: InfoWindow(title: 'Marina Bay Hotel'),
     icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue));
