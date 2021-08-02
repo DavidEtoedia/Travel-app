@@ -5,7 +5,6 @@ import 'package:travel_app/homescreen/displaytext.dart';
 import 'package:travel_app/homescreen/horizontal_list_view.dart';
 import 'package:travel_app/homescreen/searchbar.dart';
 import 'package:travel_app/homescreen/vertical_list_view.dart';
-import 'package:travel_app/second_screen/google_maps.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);

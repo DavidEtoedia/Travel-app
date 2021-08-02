@@ -114,13 +114,13 @@ class _GoogleFullViewState extends State<GoogleFullView> {
   Marker merindasVilla = Marker(
       markerId: MarkerId('Merindas Villa'),
       position: LatLng(1.282302, 103.858528),
-      infoWindow: InfoWindow(title: 'Marina Bay Hotel'),
+      infoWindow: InfoWindow(title: 'Merindas Villa'),
       icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue));
 
   Marker jaysMansion = Marker(
       markerId: MarkerId('Jay\'s Mansion'),
       position: LatLng(1.288710, 103.837372),
-      infoWindow: InfoWindow(title: 'Marina Bay Hotel'),
+      infoWindow: InfoWindow(title: 'Jay\'s Mansion'),
       icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueBlue));
 
   Marker swissotelSands = Marker(
