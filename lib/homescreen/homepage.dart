@@ -14,22 +14,21 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: GoogleView(),
-      // body: SafeArea(
-      //   child: Column(
-      //     children: [
-      //       CustomAppBar(),
-      //       SizedBox(height: 20),
-      //       DisplayText(),
-      //       SizedBox(height: 30),
-      //       SearchBar(),
-      //       HorizontalListView(),
-      //       SizedBox(height: 23),
-      //       VerticalListView(),
-      //     ],
-      //   ),
-      // ),
-      // bottomNavigationBar: BottomNavbar(),
+      body: SafeArea(
+        child: Column(
+          children: [
+            CustomAppBar(),
+            SizedBox(height: 20),
+            DisplayText(),
+            SizedBox(height: 30),
+            SearchBar(),
+            HorizontalListView(),
+            SizedBox(height: 23),
+            VerticalListView(),
+          ],
+        ),
+      ),
+      bottomNavigationBar: BottomNavbar(),
     );
   }
 }

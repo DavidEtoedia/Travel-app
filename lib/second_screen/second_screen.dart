@@ -1,9 +1,8 @@
-import 'dart:collection';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_app/second_screen/description_text.dart';
 import 'package:travel_app/second_screen/display_image.dart';
+import 'package:travel_app/second_screen/google_maps.dart';
 import 'package:travel_app/second_screen/horizontal_thumnail.dart';
 
 import 'location_map.dart';
@@ -58,7 +57,7 @@ class DisplayScreen extends StatelessWidget {
                   SizedBox(height: 30),
                   DescriptionText(),
                   SizedBox(height: 30),
-                  LocationMap(),
+                  GoogleView(),
                   SizedBox(height: 100),
                 ],
               ),
